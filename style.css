@@ -1,116 +1,140 @@
-*{
-    margin: 0px;
-    font-family: 'Inter';
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-size: cover;
 }
-#logo{
+body {
+    min-width: 1200px;
+}
+
+#logo {
     margin-left: 52px;
     margin-top: 56px; 
 }
-#titulo-menusuperior{
+
+#titulo-menusuperior {
     margin-left: 172px;
     margin-top: 71px;
 }
-#texto-menusuperior{
+
+#texto-menusuperior {
     margin-left: 172px;
     margin-top: 32px;
     padding-bottom: 151px;
 }
-#menusuperior{
+
+#menusuperior {
     background-image: url(imagens/fundo-menusuperior.svg);
     color: aliceblue;
     background-size: 100%;
-    
 }
-#menuinformacional{
-    background-color:#EAECE5;
+
+#menuinformacional {
+    background-color: #EAECE5;
     display: grid;
     grid-auto-flow: column;
-    columns: auto;
+    grid-template-columns: auto;
 }
-.icone{
-    margin: 70px 0px 70px 228px;
+
+.icone {
+    margin: 70px 0 70px 228px;
     padding: 19.33px;
 }
-#secaovideo{
+
+#secaovideo {
     display: grid;
     grid-auto-flow: column;
-    columns: auto;
+    grid-template-columns: auto;
 }
-.texto-informativo{
+
+.texto-informativo {
     display: flex;
     align-items: center;
 }
 
-#titulo-video{
+#titulo-video {
     color: #247BA0;
     margin-top: 57px;
-    }
-#video{
+}
+
+#video {
     margin: 57px 52px 44px 172px;
-    }
-#carrossel{
+}
+
+#carrossel {
     padding: 58px;
     background-color: #247BA0;
 }
-#titulo-carrossel{
+
+#titulo-carrossel {
     color: white;
     text-align: center;
     font-size: 25px;
 }
-#div-cards{
+
+#div-cards {
     margin-top: 64px;
     display: grid;
     grid-auto-flow: column;
-    columns: auto;
+    grid-template-columns: auto;
 }
-.card{
+
+.card {
     margin-left: 132px;
 }
-#seta-esquerda{
+
+#seta-esquerda {
     display: none;
 }
-#Bruna{
+
+#Bruna {
     display: none;
 }
-.seta{
+
+.seta {
     margin-top: 55%;
     cursor: pointer;
 }
-.seta:hover{
+
+.seta:hover {
     transform: translateY(-7px);
     transition-duration: 0.7s;
 }
-#formulario{
-    text-align: center;
 
+#formulario {
+    text-align: center;
 }
-#titulo-formulario{
+
+#titulo-formulario {
     font-size: 25px;
     margin: 22px;
     color: #383838;
 }
-input{
+
+input {
     height: 53px;
     width: 413px;
     background-color: #EAECE5;
     margin: 15px;
-    border: 0px;
+    border: none;
     border-radius: 8px;
     padding-left: 19px;
 }
-button{
+
+button {
     background-color: #247BA0;
     height: 53px;
     width: 335px;
-    border: 0px;
+    border: none;
     border-radius: 8px;
     color: #FFFFFF;
     margin-bottom: 50px;
     font-weight: bolder;
     cursor: pointer;
 }
-button:hover{
-    background-color:#329bc9;
+
+button:hover {
+    background-color: #329bc9;
     color: white;
     transform: translateY(-7px);
     box-shadow: 0px 15px 20px #315c85;
